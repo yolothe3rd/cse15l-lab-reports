@@ -1,4 +1,5 @@
 *italicized text*
+
 **bolded text**
 # Heading Type 1
 ## Heading Type 2
