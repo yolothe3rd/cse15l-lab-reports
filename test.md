@@ -3,7 +3,7 @@
 **bolded text**
 # Heading Type 1
 ## Heading Type 2
-[Link](https://youtube.com)
+[youtube](https://youtube.com)
 ![Image](https://today.ucsd.edu/news_uploads/_social/img-primary-Geisel-UCSanDiego-ErikJepsen-090922.jpg)
 > This might be a Blockquote
 
