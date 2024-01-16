@@ -1,26 +1,26 @@
 # Lab Report 1 - Remote Access and FileSystem (Week1)
 
 
-## Command `cd`
+### Command `cd`
 
-### Using the command with No Arguments
+#### Using the command with No Arguments
 
-### Using the command with a path to a directory as an argument
+#### Using the command with a path to a directory as an argument
 
-### Using the command with a path to a file as an argument
+#### Using the command with a path to a file as an argument
 
-## Command `ls`
+### Command `ls`
 
-### Using the command with No Arguments
+#### Using the command with No Arguments
 
-### Using the command with a path to a directory as an argument
+#### Using the command with a path to a directory as an argument
 
-### Using the command with a path to a file as an argument
+#### Using the command with a path to a file as an argument
 
-## Command `cat`
+### Command `cat`
 
-### Using the command with No Arguments
+#### Using the command with No Arguments
 
-### Using the command with a path to a directory as an argument
+#### Using the command with a path to a directory as an argument
 
-### Using the command with a path to a file as an argument
+#### Using the command with a path to a file as an argument
