@@ -1,7 +1,7 @@
-# Lab Report 1 - Remote Access and FileSystem (Week1)
+### Lab Report 1 - Remote Access and FileSystem (Week1)
 
 
-### Command `cd`
+#### Command `cd`
 
 * Using the command with No Arguments
   
@@ -33,7 +33,7 @@
 
   That being said, this output is an error. As previously mentioned, the `cd` command should take in an argument that is a path to a *directory*, and given that the path passed in was one to a *file* instead, it was invalid and the terminal returns an error message. 
 
-### Command `ls`
+#### Command `ls`
 
 * Using the command with No Arguments
 
@@ -67,7 +67,7 @@
 
   This output is not an error.
 
-### Command `cat`
+#### Command `cat`
 
 * Using the command with No Arguments
 
