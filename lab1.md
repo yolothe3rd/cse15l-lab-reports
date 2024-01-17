@@ -45,6 +45,7 @@
 
   When the `ls` command is run, four separate items are printed: `Hello.class`, `Hello.java`, `messages`, and `README`; these are the four files that are located in the path `/home/lecture`, the argument included in the command line. Referring to the files tab (see below), we can confirm that these four items are indeed the files that are nestled under `lecture1`.
 
+    ![Image](files.jpg)
 
 * Using the command with a path to a file as an argument
 
