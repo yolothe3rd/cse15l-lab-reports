@@ -47,6 +47,8 @@
 
     ![Image](files.jpg)
 
+  This output is not an error.
+  
 * Using the command with a path to a file as an argument
 
 ### Command `cat`
@@ -67,5 +69,8 @@
 
   The working directory when the command is run is `/home`.
 
+  The output when this command line was run is `cat: /home/lecture1: Is a directory`. This is an error statement, caused by an invalid input provided to the terminal. 
+
+    As such, the output is definitely an error. The `cat` command only accepts arguments that are paths to *files*, but the command line provides an argument that is a path to a *directory* instead. Therefore, an error statement is printed to let the user know why the program was not run correctly.
   
 * Using the command with a path to a file as an argument
