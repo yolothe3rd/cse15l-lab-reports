@@ -15,6 +15,8 @@
 
 * Using the command with No Arguments
 
+  ![Image](ls-no-arg.jpg)
+
 * Using the command with a path to a directory as an argument
 
 * Using the command with a path to a file as an argument
@@ -22,6 +24,8 @@
 ### Command `cat`
 
 * Using the command with No Arguments
+
+  ![Image](cat-no-arg.jpg)
 
 * Using the command with a path to a directory as an argument
 
