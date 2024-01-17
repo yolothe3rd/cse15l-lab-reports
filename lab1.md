@@ -25,6 +25,14 @@
   
 * Using the command with a path to a file as an argument
 
+  ![Image](cd-file.jpg)
+
+  The working directory when the command is run is `/home`.
+
+  Similarly to when `cat` is run with a path to a *directory* instead of a *file* (see below), here `cd` is run with a path to a *file* instead of a *directory*. Because of this invalid input, an error statement is printed out, letting the user know as such.
+
+  That being said, this output is an error. As previously mentioned, the `cd` command should take in an argument that is a path to a *directory*, and given that the path passed in was one to a *file* instead, it was invalid and the terminal returns an error message. 
+
 ### Command `ls`
 
 * Using the command with No Arguments
@@ -51,6 +59,14 @@
   
 * Using the command with a path to a file as an argument
 
+  ![Image](ls-file.jpg)
+
+  The working directory when the command is run is `/home`.
+
+  Given that a path to a *file* was presented as the argument in the `ls` command line, the terminal prints out the file that is in that exact location.
+
+  This output is not an error.
+
 ### Command `cat`
 
 * Using the command with No Arguments
@@ -74,3 +90,11 @@
     As such, the output is definitely an error. The `cat` command only accepts arguments that are paths to *files*, but the command line provides an argument that is a path to a *directory* instead. Therefore, an error statement is printed to let the user know why the program was not run correctly.
   
 * Using the command with a path to a file as an argument
+
+  ![Image](cat-file.jpg)
+
+  The working directory when the command is run is `/home`.
+
+  The path passed as an argument into the `cat` command line is now one that points to a *file*, unlike previously, when it pointed to a *directory*. As such, the command line runs properly, and the terminal prints out the contents of the specified file: `en-us.txt`. 
+
+  This output is not an error.
