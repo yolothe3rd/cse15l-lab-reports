@@ -4,6 +4,8 @@
 ### Command `cd`
 
 * Using the command with No Arguments
+  
+  ![Image](cd-no-arg.jpg)
 
 * Using the command with a path to a directory as an argument
 
