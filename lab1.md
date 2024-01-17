@@ -19,7 +19,7 @@
 
   The working directory when the command is run is `/home/lecture1`.
 
-  Again, there is no output, but the prefix is changed from `[user@sahara ~]` to `[user@sahara ~/lecture1]`. This shows that the current directory has been changed from `/home` to `/home/lecture1`, which is the purpose of the `cd` command.
+  Again, there is no output, but the prefix in the prompt is changed from `[user@sahara ~]` to `[user@sahara ~/lecture1]`. This shows that the current directory has been changed from `/home` to `/home/lecture1`, which is the purpose of the `cd` command.
 
   This output is not an error.
   
