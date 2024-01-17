@@ -15,6 +15,8 @@
 
 * Using the command with a path to a directory as an argument
 
+  ![Image](cd-dir.jpg)
+
 * Using the command with a path to a file as an argument
 
 ### Command `ls`
@@ -30,6 +32,8 @@
   This output is not an error.
 
 * Using the command with a path to a directory as an argument
+
+  ![Image](ls-dir.jpg)
 
 * Using the command with a path to a file as an argument
 
@@ -47,4 +51,6 @@
 
 * Using the command with a path to a directory as an argument
 
+  ![Image](cat-dir.jpg)
+  
 * Using the command with a path to a file as an argument
