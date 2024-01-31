@@ -50,3 +50,10 @@ class ChatServer {
 
 }
 ```
+
+![Image](Exec1.jpg)
+__Executing `/add-message` for the first time__
+
+![Image](Exec2.jpg)
+
+__Executing `/add-message` for the second time__
