@@ -64,7 +64,7 @@ __Executing `/add-message` for the first time__
 __Executing `/add-message` for the second time__
 
 * The only method in my program, `handleRequest`, is called. Each time the URL is changed, the same method gets called over and over again.
-* The only argument involved is `URL url`, which is the url presented and used to edit values within the web server. In this case, it is `https://0-0-0-0-4010-avledunqa5jbrhh7r9pg99jjfg.us.edusercontent.com/add-message?s=Hello&user=jpolitz`.
+* The only argument involved is `URL url`, which is the url presented and used to edit values within the web server. In this case, it is `https://0-0-0-0-4010-avledunqa5jbrhh7r9pg99jjfg.us.edusercontent.com/add-message?s=Hello!&user=jpolitz1`.
 * The fields within this method, again, are `Strings` `str`, `user`, and `msg`, `int` `num`, and an array `parameters` of type `String`. `str` holds value `"jpolitz: Hello"` prior to the call, but following the execution of the code, holds the value
   ```
   "jpolitz: Hello"
