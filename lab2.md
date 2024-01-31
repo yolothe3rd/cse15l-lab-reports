@@ -67,8 +67,8 @@ __Executing `/add-message` for the second time__
 * The only argument involved is `URL url`, which is the url presented and used to edit values within the web server. In this case, it is `https://0-0-0-0-4010-avledunqa5jbrhh7r9pg99jjfg.us.edusercontent.com/add-message?s=Hello!&user=jpolitz1`.
 * The fields within this method, again, are `Strings` `str`, `user`, and `msg`, `int` `num`, and an array `parameters` of type `String`. `str` holds value `"jpolitz: Hello"` prior to the call, but following the execution of the code, holds the value
   ```
-  "jpolitz: Hello"
-  "jpolitz1: Hello!"
+  jpolitz: Hello
+  jpolitz1: Hello!
   ```
 The fields `user` and `msg` hold the values `"jpolitz1"` and `"Hello!"`, respectively. `num` is initialized to be 0, but is incremented by 1 following the first execution of the code, and now is incremented to hold value 2 after this second call. `parameters` holds parts of the URL split up into pieces, and now holds vlues with the first element being `"add-message?s"`, the second element being `"Hello!&user"`, and the third element being `"jpolitz1"`.
   
