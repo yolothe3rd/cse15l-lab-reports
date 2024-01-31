@@ -80,7 +80,7 @@ The fields `user` and `msg` hold the values `"jpolitz1"` and `"Hello!"`, respect
 
   
 #### Part 2
-
+![Image](report2p2.jpg)
 
 #### Part 3
 To be honest, a majority of what was taught in this class thus far has been new and (formerly) foreign material to me. I think one of the more interesting things I learned has been about creating and operating web servers. The aspect of creating the actual server itself is still a bit unclear to me, but I think I have gotten a pretty good handle on taking parts of the input once the web server has been established and using or manipulating data based on that. It took a couple of different sessions of staring at the code and endlessly testing and debugging, but I slowly got to a point where all the logic within the created server file made sense, and I was comfortable manipulating it to my own needs.
