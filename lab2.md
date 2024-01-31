@@ -51,17 +51,23 @@ class ChatServer {
 }
 ```
 
+
 ![Image](Exec1.jpg)
 
+
 __Executing `/add-message` for the first time__
+
 
 * The only method in my program, `handleRequest`, is called. Each time the URL is changed, the same method gets called over and over again.
 * The only argument involved is `URL url`, which is the url presented and used to edit values within the web server. In this case, it is `https://0-0-0-0-4010-avledunqa5jbrhh7r9pg99jjfg.us.edusercontent.com/add-message?s=Hello&user=jpolitz`.
 * The fields within this method are `Strings` `str`, `user`, and `msg`, `int` `num`, and an array `parameters` of type `String`. `str` is initialized as an empty string, but is changed to hold `"jpolitz: Hello"` following the execution of the code. The fields `user` and `msg` hold the values `"jpolitz"` and `"Hello"`, respectively. `num` is initialized to be 0, but is incremented by 1 following the execution of the code. `parameters` holds parts of the URL split up into pieces, specifically with the first element being `"add-message?s"`, the second element being `"Hello&user"`, and the third element being `"jpolitz"`.
+
   
 ![Image](Exec2.jpg)
 
+
 __Executing `/add-message` for the second time__
+
 
 * The only method in my program, `handleRequest`, is called. Each time the URL is changed, the same method gets called over and over again.
 * The only argument involved is `URL url`, which is the url presented and used to edit values within the web server. In this case, it is `https://0-0-0-0-4010-avledunqa5jbrhh7r9pg99jjfg.us.edusercontent.com/add-message?s=Hello!&user=jpolitz1`.
@@ -71,6 +77,7 @@ __Executing `/add-message` for the second time__
   jpolitz1: Hello!
   ```
 The fields `user` and `msg` hold the values `"jpolitz1"` and `"Hello!"`, respectively. `num` is initialized to be 0, but is incremented by 1 following the first execution of the code, and now is incremented to hold value 2 after this second call. `parameters` holds parts of the URL split up into pieces, and now holds vlues with the first element being `"add-message?s"`, the second element being `"Hello!&user"`, and the third element being `"jpolitz1"`.
+
   
 #### Part 2
 
