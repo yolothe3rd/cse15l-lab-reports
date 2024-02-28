@@ -5,7 +5,7 @@
 1. Faulty input -
    ```
     @Test 
-    	public void testFilter() {
+    public void testFilter() {
         int[] input = { "1", "3", "5" };
         assertArrayEquals(ListExamples.filter(input1, sc), ["1", "3", "5"]);
     	}
@@ -14,7 +14,7 @@
 2. NonFaulty Input -
    ```
     @Test 
-    	public void testFilter() {
+    public void testFilter() {
         int[] input = { "1" };
         assertArrayEquals(ListExamples.filter(input1, sc), ["1"]);
     	}
