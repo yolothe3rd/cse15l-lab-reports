@@ -8,7 +8,7 @@
     public void testFilter() {
         int[] input = { "1", "3", "5" };
         assertArrayEquals(ListExamples.filter(input1, sc), ["1", "3", "5"]);
-    	}
+    }
    ```
    
 2. NonFaulty Input -
@@ -17,7 +17,7 @@
     public void testFilter() {
         int[] input = { "1" };
         assertArrayEquals(ListExamples.filter(input1, sc), ["1"]);
-    	}
+    }
    ```
    
 3. Symptoms
