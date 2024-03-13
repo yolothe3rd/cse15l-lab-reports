@@ -26,8 +26,6 @@ public class prototype {
 }
 ```
 
-![Image](lab5.1.png)
-
 ```
 lab5/
 |-  prototype.java
