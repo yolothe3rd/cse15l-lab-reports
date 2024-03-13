@@ -47,9 +47,13 @@ Part 1 - Debugging Scenario
 	
 	
 2. 
-	The error message when you try to compile tells you the issue is line 15 in ``prototype.java``. What potential syntax mistake could you have made at the specified location? Keep in mind the arguments of specific helper methods.
+	The error message when you try to compile tells you the issue is line 15 in ``prototype.java``. What potential syntax mistake could you have made at the specified location that would require some type of type conversion? Keep in mind the arguments of specific helper methods.
 
 3. 
+   	I realized the order of the arguments I used in ``add()`` was incorrect. If there is indexing that is involved, in addition to the desired value to add to the arraylist, the index must come first, before the value that is to be added. Once I switched those around, the program compiled properly.
+
+   ![Image](lab5.2.png)
+   ![Image](lab5.3.png)
 	    
    
 
