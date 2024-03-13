@@ -14,56 +14,72 @@ Steps:
 
 Step 4 Keys Pressed:
 
-ssh adw005@ieng6.ucsd.edu <enter>
+``ssh adw005@ieng6.ucsd.edu`` ``<enter>``
 
 ![Image](step1.jpg)
 
 Step 5 Keys Pressed:
 
-git clone git@github.com:yolothe3rd/lab7.git <enter>
+``git clone git@github.com:yolothe3rd/lab7.git`` ``<enter>``
 
-![Image]
+![Image](lab4.5.png)
 
 Step 6 Keys Pressed:
 
-ls <enter>
-cd l <tab> <enter>
-ls <enter>
-cat t <tab> <enter>
-test.sh <enter>
-<ctrl + c>
-<ctrl + v>
-<ctrl + c>
-<ctrl + v>
+``ls`` ``<enter>``
 
-![Image]
+``cd l`` ``<tab>`` ``<enter>``
+
+``ls`` ``<enter>``
+
+``cat t`` ``<tab>`` ``<enter>``
+
+``test.sh`` ``<enter>``
+
+``<ctrl + c>``
+
+``<ctrl + v>``
+
+``<ctrl + c>``
+
+``<ctrl + v>``
+
+![Image](lab4.3.png)
 
 Step 7 Keys Pressed:
 
-ls <enter>
-vim ListExamples.java <enter>
+``ls`` ``<enter>``
+``vim ListExamples.java`` ``<enter>``
+
+![Image](lab4.7.1.png)
 
 Part 1:
-<down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down>  (14 times)
-<right> <right> <right> <right> <right> <right> <right> <right> <right> <right> <right> <right> <right> <right> <right> <right> <right> <right> <right> (19 times)
-x x x (3 times)
 
-![Image]
+``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>``  (14 times)
+
+``<right>`` ``<right>`` ``<right>`` ``<right>`` ``<right>`` ``<right>`` ``<right>`` ``<right>`` ``<right>`` ``<right>`` ``<right>`` ``<right>`` ``<right>`` ``<right>`` ``<right>`` ``<right>`` ``<right>`` ``<right>`` ``<right>`` (19 times)
+
+``x`` ``x`` ``x`` (3 times)
+
+![Image](lab4.7.2.png)
 
 Part 2:
-<down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> <down> (29 times)
-<left> <left> <left> <left> <left> (5 times)
-i <backspace> 2 <esc>
-:wq <enter>
 
-![Image]
+``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` ``<down>`` (29 times)
+
+``<left>`` ``<left>`` ``<left>`` ``<left>``  (4 times)
+
+``i`` ``<backspace>`` ``2`` ``<esc>``
+``:wq`` ``<enter>``
+
+![Image](lab4.7.3.png)
 
 Step 8 Keys Pressed:
 
-<up> <up> <up> <up> <enter>
-<up> <up> <up> <up> <enter>
+``<up>`` ``<up>`` ``<up>`` ``<up>`` ``<enter>``
+``<up>`` ``<up>`` ``<up>`` ``<up>`` ``<enter>``
 
-![Image]
+![Image](lab4.8.png)
 
 Step 9 Keys Pressed:
 
