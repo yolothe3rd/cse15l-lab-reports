@@ -2,6 +2,7 @@
 
 Part 1 - Debugging Scenario
 
+
 ```
 import java.io.File;
 import java.io.IOException;
@@ -23,6 +24,14 @@ public class prototype {
 	  return result;
 	}
 }
+```
+
+![Image](lab5.1.png)
+
+```
+lab5/
+|-  prototype.java
+|-  tester.sh
 ```
 
 
