@@ -56,13 +56,60 @@ Part 1 - Debugging Scenario
    ![Image](lab5.3.png)
 	    
    
+4. 
+	Directory/File structure:
+	```
+	lab5/
+	|-  prototype.java
+	|-  tester.sh
+	```
+ 	Content of ``prototype.java`` and ``tester.sh`` prior to fixing bug:
 
-Directory/File structure:
-```
-lab5/
-|-  prototype.java
-|-  tester.sh
-```
+	``prototype.java``:
+	```
+	import java.io.File;
+	import java.io.IOException;
+	import java.util.ArrayList;
+	import java.util.List;
+	
+	public class prototype {
+	
+		static List<File> getFiles(File start) throws IOException {
+		  File f = start;
+		  List<File> result = new ArrayList<>();
+		  result.add(start);
+		  if(f.isDirectory()) {
+		    File[] paths = f.listFiles();
+		    for(File subFile: paths) {
+		      result.add(subFile, 0);
+		    }
+		  }
+		  return result;
+		}
+	}
+	```
+	
+	``tester.sh``:
+	```
+	CPATH='.:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar'
+	javac -cp $CPATH *.java
+	
+	
+	if [[ $? -ne 0 ]]
+	    then
+	        echo "The program failed to compile, see above for compile error."
+	        exit 1
+ 	else
+ 	    echo "The program compiled properly, good job."
+	fi
+	```
+ 	Command line run to trigger bug:
+
+	``bash tester.sh prototype.sh``
+	
+ 	How to fix this bug:
+
+	This was a relatively simple syntax error bug, as the ``add()`` method for ArrayList has the syntax ``add(index, content)``, where ``content`` is what is meant to be added to the arraylist, and ``index`` is the index at which ``content`` is to be added. The original program had an issue because the ``content`` and the ``index`` were mixed up, leading to java saying that there was a conversion required, as the program was trying to convert a value of type ``File`` into an ``int`` to suite the ``index`` argument. Once the ``"subfile"`` and ``"0"`` switched positions, the syntax error goes away.
 
 
 Part 2 - Reflection
