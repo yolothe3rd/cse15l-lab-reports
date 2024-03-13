@@ -109,7 +109,7 @@ Part 1 - Debugging Scenario
 	
  	How to fix this bug:
 
-	This was a relatively simple syntax error bug, as the ``add()`` method for ArrayList has the syntax ``add(index, content)``, where ``content`` is what is meant to be added to the arraylist, and ``index`` is the index at which ``content`` is to be added. The original program had an issue because the ``content`` and the ``index`` were mixed up, leading to java saying that there was a conversion required, as the program was trying to convert a value of type ``File`` into an ``int`` to suite the ``index`` argument. Once the ``"subfile"`` and ``"0"`` switched positions, the syntax error goes away.
+This was a relatively simple syntax error bug, as the ``add()`` method for ArrayList has the syntax ``add(index, content)``, where ``content`` is what is meant to be added to the arraylist, and ``index`` is the index at which ``content`` is to be added. The original program had an issue because the ``content`` and the ``index`` were mixed up, leading to java saying that there was a conversion required, as the program was trying to convert a value of type ``File`` into an ``int`` to suite the ``index`` argument. Once the ``"subfile"`` and ``"0"`` switched positions, the syntax error goes away.
 
 
 Part 2 - Reflection
