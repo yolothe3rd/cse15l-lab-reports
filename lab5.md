@@ -2,31 +2,56 @@
 
 Part 1 - Debugging Scenario
 
-
-```
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
-public class prototype {
-
-	static List<File> getFiles(File start) throws IOException {
-	  File f = start;
-	  List<File> result = new ArrayList<>();
-	  result.add(start);
-	  if(f.isDirectory()) {
-	    File[] paths = f.listFiles();
-	    for(File subFile: paths) {
-	      result.add(subFile, 0);
-	    }
-	  }
-	  return result;
+1.	
+	See ``prototype.java`` below, as well as error message when I ran the compile bash script. I'm not sure what exactly is causing this compile error.
+	
+	``prototype.java``:
+	```
+	import java.io.File;
+	import java.io.IOException;
+	import java.util.ArrayList;
+	import java.util.List;
+	
+	public class prototype {
+	
+		static List<File> getFiles(File start) throws IOException {
+		  File f = start;
+		  List<File> result = new ArrayList<>();
+		  result.add(start);
+		  if(f.isDirectory()) {
+		    File[] paths = f.listFiles();
+		    for(File subFile: paths) {
+		      result.add(subFile, 0);
+		    }
+		  }
+		  return result;
+		}
 	}
-}
-```
+	```
+	
+	``tester.sh``:
+	```
+	CPATH='.:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar'
+	javac -cp $CPATH *.java
+	
+	
+	if [[ $? -ne 0 ]]
+	    then
+	        echo "The program failed to compile, see above for compile error."
+	        exit 1
+ 	else
+ 	    echo "The program compiled properly, good job."
+	fi
+	```
+	![Image](lab5_1.png)
+	
+	
+2. 
+	The error message when you try to compile tells you the issue is line 15 in ``prototype.java``. What potential syntax mistake could you have made at the specified location? Keep in mind the arguments of specific helper methods.
 
-
+3. 
+	    
+   
 
 
 ```
